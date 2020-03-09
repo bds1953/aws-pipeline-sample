@@ -18,7 +18,4 @@ phases:
   post_build:
     commands:
       echo 'post build'
-      mv target/deploy ./
-artifacts:
-  files:
-    deploy/**/*
+     
